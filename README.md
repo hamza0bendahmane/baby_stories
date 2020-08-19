@@ -1,12 +1,12 @@
 
-## Baby Stories: 
+# Baby Stories: 
 ![alt text][logo]
 
 [logo]: https://github.com/hamza0bendahmane/baby_stories/blob/master/app/src/main/res/drawable-mdpi/baby_stories_im.png "Logo App"
 baby stories app
 
 
-##created BY HB-Techs 
+## created BY HB-Techs 
 
 
 
