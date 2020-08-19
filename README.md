@@ -1,4 +1,3 @@
-# baby_stories
 
 ## Baby Stories: 
 ![alt text][logo]
@@ -7,10 +6,10 @@
 baby stories app
 
 
-created BY HB-Techs 
+##created BY HB-Techs 
 
 
 
-See in Play Store :
+### See in Play Store :
 
 https://play.google.com/store/apps/details?id=com.example.baby_stories
