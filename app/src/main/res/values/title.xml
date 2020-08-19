@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="long_title" >
+        <item>صانع القماش </item>
+        <item>الله يرانى</item>
+        <item>قصة الغزالة الذكية</item>
+        <item>الأسد الملك </item>
+        <item>النعمان والحصان المسحور</item>
+        <item>الاميرة والضفدع</item>
+        <item>المعنى الحقيقي للرحمة</item>
+        <item>سلمى والكذب</item>
+        <item> القرد المحتال</item>
+        <item>الشاطر حسن</item>
+        <item>قيمة الأمانة</item>
+        <item>بائع ثمار التفاح البخيل</item>
+        <item>الأرنب الكاذب والحريق</item>
+        <item>جحا والجار البخيل</item>
+        <item>الخاتم العجيب</item>
+        <item>جاك ونبتة الفاصولياء</item>
+        <item>الغزالة الذكية</item>
+        <item>بخيل الشجرة</item>
+        <item>هانسل وغريتل</item>
+        <item>الملك وبناته الثلاثة</item>
+        <item>الأرنب وبئر الماء</item>
+        <item>أذن الملك الطويلة</item>
+        <item>قرع الطبول</item>
+        <item>سندباد</item>
+        <item>أليس في بلاد العجائب</item>
+        <item>الأميرة النائمة</item>
+        <item>الذئب والخراف السبعة</item>
+        <item>علاء الدين والمصباح السحري</item>
+        <item>الحسناء والوحش</item>
+        <item>بينوكيو</item>
+        <item>بائعة الكبريت</item>
+        <item>بياض الثلج</item>
+        <item>سندريلا</item>
+
+    </string-array>
+    <string-array name="short_title">
+
+        <item>المزارع المخادع</item>
+        <item>الدجاجة الذهبية</item>
+        <item>الأسد ملك الغابة والفأر الصّغير</item>
+        <item>الوطن</item>
+        <item>القطة الحائرة</item>
+        <item>القنفذ والحيوانات الصغيرة</item>
+        <item>الثعلب الماكر</item>
+        <item>العصفور والفيل</item>
+        <item>الكلب الطماع</item>
+        <item>الراعي الكذاب</item>
+        <item>قصة التاجر والحمار</item>
+        <item>الشرنقة والفراشة</item>
+        <item>غير نفسك ولا تحاول تغيير الحياة</item>
+        <item>الثعلب الجائع وجذع الشجرة</item>
+        <item>الأصدقاء المزيفون</item>
+        <item>قوي أم ضعيف</item>
+        <item>الراعي والكرة الزجاجية</item>
+        <item>أجمل قلب على الإطلاق</item>
+        <item>الغنى الحقيقي</item>
+        <item>الكنز المدفون</item>
+        <item>ساقي الطيور</item>
+        <item>الله يراني</item>
+        <item>الضفدع الفائز</item>
+        <item>صانع القماش</item>
+        <item>قصة خير الأمور أوسطها</item>
+        <item>العصفوران الصغيران</item>
+        <item>السمكة والبلبل</item>
+        <item>من ترك وطنه عاش غريبا ذليلا</item>
+        <item>الزرافة زوزو</item>
+        <item>درهم في الصحراء</item>
+        <item>قصة الفأر الذكي</item>
+        <item>الأرنب والسلحفاة</item>
+        <item>قصّة الأرنب والسّلحفاة سوسو</item>
+        <item>قصّة السلحفاة والأرنب الكسلان</item>
+        <item>قصة البطة القبيحة</item>
+        <item>قصة البطة المغرورة</item>
+        <item>الضبي المريض</item>
+        <item>العامل والأفعى</item>
+        <item>الأسد العجوز</item>
+        <item>الجدي والراعي</item>
+        <item>الحمامة العطشانة</item>
+        <item>قصة الحمامة والنملة</item>
+        <item> بائعة الكبريت</item>
+        <item>ذات الرداء الأحمر</item>
+        <item>الكلب الشرير المؤذي</item>
+        <item>حكاية الفأر والضفدع والصقر</item>
+        <item>الأميرة وحبة البازلاء</item>
+        <item>القطة الشقية</item>
+        <item>قصة النملة والصرصور</item>
+        <item>جحا والحمار وابنه</item>
+        <item>قصة جحا والحمير</item>
+
+
+
+    </string-array>
+
+</resources>

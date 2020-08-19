@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/CreateArticle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="Edit Story"
+            android:textSize="30dp" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/articleTitle"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/CreateArticle"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="15dp"
+            android:maxLines="2"
+            android:maxLength="25"
+            android:layout_marginEnd="40dp"
+            android:hint="Subject..."
+            android:padding="12dp" />
+
+        <ImageView
+            android:id="@+id/AddPicture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:onClick="pick_image"
+            android:layout_below="@+id/articleTitle"
+            android:backgroundTint="#000"
+            android:layout_marginStart="42dp"
+            android:layout_marginTop="154dp"
+            app:srcCompat="@android:drawable/ic_menu_edit"
+            tools:ignore="VectorDrawableCompat"
+         />
+
+
+
+        <RelativeLayout
+            android:id="@+id/Body"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/AddPicture"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+      >
+
+            <EditText
+                android:id="@+id/editor_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginVertical="20dp"
+                android:gravity="top"
+                android:imeOptions="actionDone|flagNoEnterAction"
+                android:inputType="textMultiLine|textAutoCorrect|textCapSentences"
+                android:minHeight="200dp"
+                android:textAlignment="gravity" />
+
+            <ImageView
+                android:id="@+id/show_picked_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="250dp"
+                android:layout_alignParentEnd="true" />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Body"
+            android:layout_alignParentBottom="true"
+            android:layout_marginVertical="20dp"
+            android:gravity="center">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:backgroundTint="#0F0"
+                android:onClick="post"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:text="Post"
+                android:textColor="@color/browser_actions_bg_grey" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="cancel"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:backgroundTint="#F00"
+                android:text="Cancel"
+                android:textColor="@color/browser_actions_bg_grey"
+                android:layout_marginBottom="30dp"/>
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+</ScrollView>
+
+
+
+
+
+
+
+
+

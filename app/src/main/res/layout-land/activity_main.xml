@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FDD18A"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:focusable="true"
+                android:layout_marginLeft="8dp"
+                android:clickable="true"
+                android:layout_marginRight="10dp"
+                android:elevation="6dp"
+                app:cardElevation="8dp"
+                android:id="@+id/todays_story"
+                android:minHeight="180dp"
+                app:cardCornerRadius="20dp">
+
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:elevation="6dp"
+                    android:background="@drawable/today_story"
+                    android:scaleType="center" />
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#C42586"
+                    android:text="قصة اليوم"
+                    android:layout_marginVertical="8dp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal|bottom"
+                    android:textAppearance="?attr/textAppearanceHeadline6" />
+
+
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginBottom="20dp"
+                android:minHeight="180dp"
+                android:focusable="true"
+                android:id="@+id/short_story"
+                android:clickable="true"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="10dp"
+                android:elevation="6dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="20dp">
+
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:elevation="6dp"
+                    android:background="@drawable/short_stories"
+                    android:scaleType="center" />
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#37CA35"
+                    android:text="قصص قصيرة مسلية"
+                    android:textStyle="bold"
+                    android:layout_marginVertical="8dp"
+                    android:layout_gravity="center_horizontal|bottom"
+                    android:textAppearance="?attr/textAppearanceHeadline6" />
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:focusable="true"
+                android:layout_marginLeft="8dp"
+                android:clickable="true"
+                android:layout_marginRight="10dp"
+                android:elevation="6dp"
+                app:cardElevation="8dp"
+                android:id="@+id/imageView"
+                android:minHeight="180dp"
+                app:cardCornerRadius="20dp">
+
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:elevation="6dp"
+                    android:background="@drawable/favorite"
+                    android:scaleType="center" />
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="قصصك المفضلة"
+                    android:textColor="#000"
+                    android:layout_marginVertical="8dp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal|bottom"
+                    android:textAppearance="?attr/textAppearanceHeadline6" />
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginBottom="20dp"
+                android:minHeight="180dp"
+                android:focusable="true"
+                android:id="@+id/long_story"
+                android:clickable="true"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="10dp"
+                android:elevation="6dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="20dp">
+
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:elevation="6dp"
+                    android:background="@drawable/long_stories"
+                    android:scaleType="center" />
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="قصص طويلة مشوقة"
+                    android:textColor="#0174A9"
+                    android:textStyle="bold"
+                    android:layout_marginVertical="8dp"
+                    android:layout_gravity="center_horizontal|bottom"
+                    android:textAppearance="?attr/textAppearanceHeadline6" />
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:minHeight="180dp"
+                android:elevation="6dp"
+                android:layout_marginLeft="8dp"
+                android:id="@+id/floating_action_button"
+                android:focusable="true"
+                android:clickable="true"
+                app:cardElevation="8dp"
+                android:layout_marginRight="10dp"
+                app:cardCornerRadius="20dp">
+
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:elevation="6dp"
+                    android:background="@drawable/advices"
+                    android:scaleType="center" />
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="نصائح وفوائد"
+                    android:textColor="#AA0"
+                    android:layout_marginVertical="8dp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal|bottom"
+                    android:textAppearance="?attr/textAppearanceHeadline6" />
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:minHeight="180dp"
+                android:focusable="true"
+                android:layout_marginBottom="8dp"
+                android:clickable="true"
+                android:id="@+id/act4"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="10dp"
+                android:elevation="6dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="20dp">
+
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:elevation="6dp"
+                    android:background="@drawable/about_us"
+                    android:scaleType="center" />
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="حول التطبيق"
+                    android:textColor="#E30A0C"
+                    android:layout_marginVertical="8dp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal|bottom"
+                    android:textAppearance="?attr/textAppearanceHeadline6" />
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+
+        </LinearLayout>
+
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="@string/banner_ad_unit_id">
+
+        </com.google.android.gms.ads.AdView>
+    </LinearLayout>
+
+</ScrollView>
+
+

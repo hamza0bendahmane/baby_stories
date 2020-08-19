@@ -1,0 +1,15 @@
+﻿<resources>
+    <string name="app_name">قصص وعبر للأطفال</string>
+    <string name="u00a9_2019_all_rights_reserved">©</string>
+    <string name="comm_dev">تواصل مع المطور</string>
+    <string name="eval_app">تقييم التطبيق</string>
+
+    <string name="banner2_ad_unit_id">ca-app-pub-1799791042873400/1969745223</string>
+    <string name="interstitial2_ad_unit_id">ca-app-pub-1799791042873400/7159983416</string>
+
+
+    <string name="banner_ad_unit_id">ca-app-pub-1799791042873400/3700230490</string>
+ <string name="interstitial_ad_unit_id">ca-app-pub-1799791042873400/6865449886</string>
+
+
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <integer-array name="long_images" >
+        <item>@drawable/story1</item>
+        <item>@drawable/story2</item>
+        <item>@drawable/story3</item>
+        <item>@drawable/story31</item>
+        <item>@drawable/story32</item>
+        <item>@drawable/story33</item>
+        <item>@drawable/story34</item>
+        <item>@drawable/story35</item>
+        <item>@drawable/story36</item>
+        <item>@drawable/story37</item>
+        <item>@drawable/story38</item>
+        <item>@drawable/story39</item>
+        <item>@drawable/story40</item>
+        <item>@drawable/story41</item>
+        <item>@drawable/story42</item>
+        <item>@drawable/story43</item>
+        <item>@drawable/story44</item>
+        <item>@drawable/story45</item>
+        <item>@drawable/story46</item>
+        <item>@drawable/story47</item>
+        <item>@drawable/story48</item>
+        <item>@drawable/story49</item>
+        <item>@drawable/story50</item>
+        <item>@drawable/story51</item>
+        <item>@drawable/story52</item>
+        <item>@drawable/story53</item>
+        <item>@drawable/story54</item>
+        <item>@drawable/story55</item>
+        <item>@drawable/story56</item>
+        <item>@drawable/story57</item>
+        <item>@drawable/story58</item>
+        <item>@drawable/story59</item>
+        <item>@drawable/story60</item>
+
+
+
+    </integer-array>
+    <integer-array name="short_images" >
+        <item>@drawable/lstory1</item>
+        <item>@drawable/lstory2</item>
+        <item>@drawable/lstory3</item>
+        <item>@drawable/lstory4</item>
+        <item>@drawable/lstory5</item>
+        <item>@drawable/lstory6</item>
+        <item>@drawable/lstory7</item>
+        <item>@drawable/lstory8</item>
+        <item>@drawable/lstory9</item>
+        <item>@drawable/lstory10</item>
+        <item>@drawable/lstory11</item>
+        <item>@drawable/lstory12</item>
+        <item>@drawable/lstory13</item>
+        <item>@drawable/lstory14</item>
+        <item>@drawable/lstory15</item>
+        <item>@drawable/lstory16</item>
+        <item>@drawable/lstory17</item>
+        <item>@drawable/lstory18</item>
+        <item>@drawable/lstory19</item>
+        <item>@drawable/lstory20</item>
+        <item>@drawable/lstory21</item>
+        <item>@drawable/lstory22</item>
+        <item>@drawable/lstory23</item>
+        <item>@drawable/lstory24</item>
+        <item>@drawable/lstory25</item>
+        <item>@drawable/lstory26</item>
+        <item>@drawable/lstory27</item>
+        <item>@drawable/lstory28</item>
+        <item>@drawable/lstory29</item>
+        <item>@drawable/lstory30</item>
+        <item>@drawable/lstory31</item>
+        <item>@drawable/lstory32</item>
+        <item>@drawable/lstory33</item>
+        <item>@drawable/lstory34</item>
+        <item>@drawable/lstory35</item>
+        <item>@drawable/lstory36</item>
+        <item>@drawable/lstory37</item>
+        <item>@drawable/lstory38</item>
+        <item>@drawable/lstory39</item>
+        <item>@drawable/lstory40</item>
+        <item>@drawable/lstory41</item>
+        <item>@drawable/lstory42</item>
+        <item>@drawable/lstory43</item>
+        <item>@drawable/lstory44</item>
+        <item>@drawable/lstory45</item>
+        <item>@drawable/lstory46</item>
+        <item>@drawable/lstory47</item>
+        <item>@drawable/lstory48</item>
+        <item>@drawable/lstory49</item>
+        <item>@drawable/lstory50</item>
+        <item>@drawable/lstory51</item>
+
+    </integer-array>
+</resources>

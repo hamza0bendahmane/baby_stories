@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    app:ignore="NamespaceTypo">
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adViewOff"
+        android:layout_width="wrap_content"
+        android:layout_marginVertical="7dp"
+        android:layout_height="wrap_content"
+        ads:layout_constraintTop_toTopOf="parent"
+        ads:adSize="SMART_BANNER"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        ads:adUnitId="@string/banner_ad_unit_id">
+
+    </com.google.android.gms.ads.AdView>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dp"
+    android:gravity="center"
+    android:layout_marginLeft="9dp"
+    android:layout_marginRight="9dp"
+    android:id="@+id/empty_fav"
+    android:background="@drawable/ic_back_title"
+    android:textSize="10pt"
+    android:textStyle="bold"
+    android:textColor="#000"
+    android:padding="8dp"
+    android:text="قائمتك المفضلة فارغة قم بإضافة قصص للمفضلة لتستمتع بقراءتها لاحقا"
+    />
+<GridView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:numColumns="auto_fit"
+    android:paddingEnd="5dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:horizontalSpacing="10dp"
+    android:verticalSpacing="10dp"
+    android:gravity="center"
+    android:stretchMode="columnWidth"
+    android:id="@+id/gridView"
+    android:layout_height="match_parent"
+    android:paddingStart="5dp"/>
+
+    </LinearLayout>
