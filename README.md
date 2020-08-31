@@ -12,4 +12,4 @@ baby stories app
 
 ### See in Play Store :
 
-https://play.google.com/store/apps/details?id=com.example.baby_stories
+https://play.google.com/store/apps/details?id=hb.techs.baby_stories
