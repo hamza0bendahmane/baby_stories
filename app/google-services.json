@@ -8,17 +8,17 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:872223490733:android:f9269130c119d92f3b3c24",
+        "mobilesdk_app_id": "1:872223490733:android:11f1873b943e2aa83b3c24",
         "android_client_info": {
-          "package_name": "com.example.baby_stories"
+          "package_name": "hb.tech.add_baby_stories"
         }
       },
       "oauth_client": [
         {
-          "client_id": "872223490733-af5sf4nsft3ekiim558gqivlbkmuk64q.apps.googleusercontent.com",
+          "client_id": "872223490733-d21r531llc5hs86ki354lqoo47jjo472.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.baby_stories",
+            "package_name": "hb.tech.add_baby_stories",
             "certificate_hash": "ac90aa636987a19d76cf42b60d63695cbf170451"
           }
         },
@@ -41,22 +41,21 @@
             }
           ]
         }
-      },
-      "admob_app_id": "ca-app-pub-1799791042873400~4494513399"
+      }
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:872223490733:android:11f1873b943e2aa83b3c24",
+        "mobilesdk_app_id": "1:872223490733:android:2982c2f5d3b154c13b3c24",
         "android_client_info": {
-          "package_name": "hb.tech.add_baby_stories"
+          "package_name": "hb.techs.baby_stories"
         }
       },
       "oauth_client": [
         {
-          "client_id": "872223490733-d21r531llc5hs86ki354lqoo47jjo472.apps.googleusercontent.com",
+          "client_id": "872223490733-abj89fgv2d44lonbu35diu8mn5f2t45k.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "hb.tech.add_baby_stories",
+            "package_name": "hb.techs.baby_stories",
             "certificate_hash": "ac90aa636987a19d76cf42b60d63695cbf170451"
           }
         },
