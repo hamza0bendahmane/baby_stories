@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
                     Intent i = new Intent(MainActivity.this, act2.class);
                     startActivity(i);
                 } else
-                    Snackbar.make(findViewById(R.id.anything), "الرجاء الإتصال بالأنترنت لقراءة قصة اليوم", Snackbar.LENGTH_LONG).show();
+                    Snackbar.make(findViewById(R.id.lineqr), "الرجاء الإتصال بالأنترنت لقراءة قصة اليوم", Snackbar.LENGTH_LONG).show();
 
             }
         });
