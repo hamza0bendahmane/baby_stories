@@ -1,17 +1,21 @@
 package hb.techs.baby_stories;
 
+import android.content.Intent;
 import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
+import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.InterstitialAd;
 import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.ads.initialization.InitializationStatus;
 import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
@@ -30,7 +34,7 @@ import static java.util.Calendar.YEAR;
 import static java.util.Calendar.getInstance;
 
 public class act2 extends AppCompatActivity {
-
+    InterstitialAd mInterstitialAd;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,7 +49,7 @@ public class act2 extends AppCompatActivity {
             public void onInitializationComplete(InitializationStatus initializationStatus) {
             }
         });
-
+        loadInterstitial();
         AdView mAdView = findViewById(R.id.adViewAct2);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
@@ -88,6 +92,74 @@ public class act2 extends AppCompatActivity {
 
     }
 
+    public void showInter() {
+        if (mInterstitialAd == null)
+            Toast.makeText(this, "خطأ", Toast.LENGTH_SHORT).show();
+        else {
+            if (mInterstitialAd.isLoading()) {
+                Toast.makeText(this, "الإعلان في طريقه في لتحميل", Toast.LENGTH_LONG).show();
+                recreate();
+            }
+            if (mInterstitialAd.isLoaded())
+                mInterstitialAd.show();
+
+
+            mInterstitialAd.setAdListener(new AdListener() {
+                @Override
+                public void onAdLoaded() {
+                    // Code to be executed when an ad finishes loading.
+                }
+
+                @Override
+                public void onAdFailedToLoad(int errorCode) {
+                    // Code to be executed when an ad request fails.
+                    Toast.makeText(act2.this, "فضل جلب الإعلان", Toast.LENGTH_SHORT).show();
+                }
+
+                @Override
+                public void onAdOpened() {
+                    // Code to be executed when the ad is displayed.
+                }
+
+                @Override
+                public void onAdClicked() {
+                    // Code to be executed when the user clicks on an ad.
+                    Toast.makeText(act2.this, "نشكرك جدا على الضغط على الإعلان انت تساعدنا بهذه الطريقة", Toast.LENGTH_SHORT).show();
+                    if (mInterstitialAd != null)
+                        mInterstitialAd.loadAd(new AdRequest.Builder().build());
+
+                }
+
+                @Override
+                public void onAdLeftApplication() {
+                    // Code to be executed when the user has left the app.
+                    if (mInterstitialAd != null)
+                        mInterstitialAd.loadAd(new AdRequest.Builder().build());
+                }
+
+                @Override
+                public void onAdClosed() {
+                    // Code to be executed when the interstitial ad is closed.
+                    if (mInterstitialAd != null)
+                        mInterstitialAd.loadAd(new AdRequest.Builder().build());
+
+                }
+            });
+        }
+    }
+
+    @Override
+    public void onBackPressed() {
+        showInter();
+        startActivity(new Intent(this, MainActivity.class));
+
+    }
+
+    private void loadInterstitial() {
+        mInterstitialAd = new InterstitialAd(this);
+        mInterstitialAd.setAdUnitId(getResources().getString(R.string.interstitial_ad_unit_id));
+        mInterstitialAd.loadAd(new AdRequest.Builder().build());
+    }
 
 
 }

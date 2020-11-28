@@ -103,10 +103,10 @@ public class act4 extends AppCompatActivity {
     public void cook(View vv) {
         try {
             startActivity(new Intent(Intent.ACTION_VIEW,
-                    Uri.parse("market://details?id=" + "hb.techs.lala")));
+                    Uri.parse("market://details?id=" + "com.hb_techs.lala")));
         } catch (ActivityNotFoundException e) {
             startActivity(new Intent(Intent.ACTION_VIEW,
-                    Uri.parse("http://play.google.com/store/apps/details?id=" + "hb.techs.lala")));
+                    Uri.parse("http://play.google.com/store/apps/details?id=" + "com.hb_techs.lala")));
         }
     }
 

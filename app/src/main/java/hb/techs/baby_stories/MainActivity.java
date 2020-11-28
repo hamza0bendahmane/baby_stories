@@ -1,6 +1,9 @@
 package hb.techs.baby_stories;
 
+import android.content.Context;
 import android.content.Intent;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.view.View;
 import android.view.animation.TranslateAnimation;
@@ -13,6 +16,7 @@ import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.ads.initialization.InitializationStatus;
 import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 import com.google.android.material.card.MaterialCardView;
+import com.google.android.material.snackbar.Snackbar;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -76,8 +80,11 @@ public class MainActivity extends AppCompatActivity {
         act2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                if (isInternetAvailable()) {
                     Intent i = new Intent(MainActivity.this, act2.class);
                     startActivity(i);
+                } else
+                    Snackbar.make(findViewById(R.id.anything), "الرجاء الإتصال بالأنترنت لقراءة قصة اليوم", Snackbar.LENGTH_LONG).show();
 
             }
         });
@@ -123,6 +130,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-
+    public boolean isInternetAvailable() {
+        ConnectivityManager conMan = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo info = conMan.getActiveNetworkInfo();
+        return info != null && info.isConnected();
+    }
 }
 
